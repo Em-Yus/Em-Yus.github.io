@@ -1,0 +1,30 @@
+:root{
+    /* ========== WARNA ========== */
+    --body-color:#cccccc;
+    --sec-color:#acacac;
+    --prim-D-color:rgb(0, 134, 0);
+    --prim-M-color:rgb(0, 255, 0);
+    --prim-L-color:rgb(131, 255, 131);
+    --text-color:white;
+
+    /* ========== Font ========== */
+
+
+    /* ========== Transisi ========== */
+    --tr02: all .2s ease;
+    --tr03: all .3s ease;
+    --tr04: all .4s ease;
+    --tr05: all .5s ease;
+    --tr06: all .6s ease;
+    --tr07: all .7s ease;
+    --tr08: all .8s ease;
+    --tr09: all .9s ease;
+    --tr1: all 1s ease;
+    --no-color: rgba(255, 255, 255, 0);
+}
+
+@media only screen and (max-width: 950px) {
+    .logo{
+        width: 200px;
+    }
+}

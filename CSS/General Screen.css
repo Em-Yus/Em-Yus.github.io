@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Monserat', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ========== WARNA ========== */
+    --body-color:#cccccc;
+    --sec-color:#acacac;
+    --prim-D-color:rgb(0, 134, 0);
+    --prim-M-color:rgb(0, 255, 0);
+    --prim-L-color:rgb(131, 255, 131);
+    --text-color:white;
+    --no-color: rgba(255, 255, 255, 0);
+
+    /* ========== Font ========== */
+
+
+    /* ========== Transisi ========== */
+    --tr02: all .2s ease;
+    --tr03: all .3s ease;
+    --tr04: all .4s ease;
+    --tr05: all .5s ease;
+    --tr06: all .6s ease;
+    --tr07: all .7s ease;
+    --tr08: all .8s ease;
+    --tr09: all .9s ease;
+    --tr1: all 1s ease;
+}
+
+body {
+    background: var(--body-color);
+}
+
+header {
+    /* width: 100vw; */
+    height: 60px;
+    background: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 20px;
+}
+
+
+/* ========== Navbar ========== */
+/* ========== Logo ========== */
+
+.logo{
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--prim-D-color);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+}
+
+/* ========== menu ========== */
+
+.nav-bar ul{
+    /* background-color: var(--sec-color); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    display: block;
+    color: var(--sec-color);
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-bottom: 5px solid var(--text-color);
+    transition: var(--tr02);
+    margin: 0 5px;
+}
+
+.nav-link:hover{
+    /* background-color: var(--prim-L-color); */
+    /* background-image: linear-gradient(var(--prim-L-color), var(--prim-M-color)); */
+    border-radius: 0;
+    border-bottom: 5px solid var(--prim-M-color);
+    color: var(--prim-M-color);
+}
+
+.nav-link.active{
+    /* background-color: var(--prim-D-color); */
+    background-image: linear-gradient(var(--prim-M-color), var(--prim-D-color));
+    color: var(--text-color);
+}
+
+.nav-link.active:hover{
+    border-radius: 0;
+    border-bottom: 5px solid var(--prim-M-color);
+    background-image: none;
+    background-color: var(--text-color);
+    color: var(--prim-M-color);
+}
+
+.nav-burger{
+    display: none;
+}
