@@ -38,6 +38,8 @@ body {
     background: var(--body-color);
 }
 
+
+/* header dan navbar */
 header {
     /* width: 100vw; */
     height: 60px;
@@ -117,3 +119,5 @@ header {
 .nav-burger{
     display: none;
 }
+
+/* sidebar */

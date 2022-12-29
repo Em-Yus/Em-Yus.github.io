@@ -1,3 +1,5 @@
+// header dan navbar
+
 const navBurger = document.querySelector(".nav-burger");
 navBurger.onclick = function() {
     const navbar = document.querySelector(".nav-bar");
@@ -10,3 +12,5 @@ navBurger.onclick = function() {
     line3.classList.toggle("silang-atas")
 
 };
+
+// sidebar
