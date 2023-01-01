@@ -113,9 +113,9 @@
         transition: var(--tr03);
     }
 
-    .nav-burger .line:nth-child(2){
-        /* width: 25px; */
-    }
+    /* .nav-burger .line:nth-child(2){
+        width: 25px;
+    } */
 
     .line.silang-bawah{
         width: 15px;
