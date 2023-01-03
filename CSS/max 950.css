@@ -23,12 +23,5 @@
     --no-color: rgba(255, 255, 255, 0);
 }
 
-@media only screen and (max-width: 950px) {
-
-    /* header dan navbar */
-    .logo{
-        width: 200px;
-    }
-}
 
 /* sidebar */
